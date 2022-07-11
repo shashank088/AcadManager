@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="myApp.Controller">
+   <children>
+      <MenuBar fx:id="myMenu" layoutX="2.0" layoutY="1.0" prefHeight="26.0" prefWidth="800.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Admin">
+            <items>
+                  <MenuItem mnemonicParsing="false" text="Login" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Teacher">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Login" />
+                  <MenuItem mnemonicParsing="false" text="Register" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Student">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Login" />
+                  <MenuItem mnemonicParsing="false" text="Register" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="574.0" fitWidth="806.0" layoutX="-4.0" layoutY="27.0" pickOnBounds="true">
+         <image>
+            <Image url="@images/homepage_back.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="203.0" layoutY="38.0" prefHeight="90.0" prefWidth="398.0" text="Welcome to AcadManager">
+         <font>
+            <Font name="Book Antiqua" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
