@@ -8,10 +8,12 @@ import javafx.stage.Stage;
 
 public class Main extends Application {
 
+    static Stage mainStage;
     @Override
     public void start(Stage primaryStage) throws Exception{
-        Parent root = FXMLLoader.load(getClass().getResource("homepage.fxml"));
+        Parent root = FXMLLoader.load(getClass().getResource("views/Homepage.fxml"));
         primaryStage.setTitle("Acad Manager");
+        mainStage = primaryStage;
         primaryStage.setScene(new Scene(root, 800, 600));
         primaryStage.show();
     }
