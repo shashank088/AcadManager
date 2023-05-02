@@ -10,7 +10,7 @@ A Java application to manage academic database of a university/college.
 * Note: This project is under development.
 
 
-![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshashank088%2FAcadManager%2F&label=VISITS&countColor=%23263759)
+![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fshashank088%2FAcadManager%2F&label=Visitors&countColor=%23263759)
 
 ## Tech-Stack Used
 * Java
